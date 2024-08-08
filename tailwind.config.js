@@ -7,9 +7,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        mejuri: "url('../public/mejuri_logo.png')",
-        hootsuite: "url('../public/hootsuite_logo.svg')",
-        pk: "url('../public/pk.png')",
+        mejuri: "url('/public/mejuri_logo.pngs')",
+        hootsuite: "url('./public/hootsuite_logo.svg')",
+        pk: "url('./public/pk.png')",
       },
     },
   },
